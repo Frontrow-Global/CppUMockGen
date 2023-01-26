@@ -85,7 +85,7 @@ unset( CPPUTEST_PATHS )
 unset( CPPUTEST_LIBNAME )
 
 get_filename_component( CppUTest_ROOT ${CppUTest_LIBRARY_DIR} DIRECTORY )
-target_include_directories( CppUTest INTERFACE ${CppUTest_ROOT}/include )
+target_include_directories( CppUTest INTERFACE ${CppUTest_ROOT}/../include )
 
 set( CppUTest_LIBRARIES CppUTest CppUTestExt )
 

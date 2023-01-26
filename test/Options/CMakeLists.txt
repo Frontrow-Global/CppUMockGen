@@ -5,7 +5,7 @@ project( CppUMockGen.Test.Options )
 # Test configuration
 
 include_directories(
-    ${PROD_SOURCE_DIR}/libs/cxxopts/include
+    ${PROD_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}
 )
 

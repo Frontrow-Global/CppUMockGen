@@ -31,20 +31,6 @@ set( SRC_LIST
 )
 
 set( INC_LIST
-     sources/App.hpp
-     sources/Parser.hpp
-     sources/ClangHelper.hpp
-     sources/Function.hpp
-     sources/Method.hpp
-     sources/Constructor.hpp
-     sources/Destructor.hpp
-     sources/ConsoleColorizer.hpp
-     sources/Config.hpp
-     sources/FileHelper.hpp
-     sources/Options.hpp
-     sources/StringHelper.hpp
-     sources/OutputFileParser.hpp
-     include/CppUMockGen.hpp
 )
 
 #
@@ -111,7 +97,7 @@ set_property( TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD_REQUIRED 1 )
 # External libraries
 #
 
-target_include_directories( ${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/libs/cxxopts/include )
+target_include_directories( ${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include )
 
 target_link_libraries( ${PROJECT_NAME} ${LibClang_LIBRARIES} )
 

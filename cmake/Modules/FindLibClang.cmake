@@ -2,7 +2,7 @@ if( WIN32 )
     set( LIBCLANG_PATHS "C:/Program Files/LLVM" )
     set( LIBCLANG_LIBNAME "libclang" )
 else()
-    set( LIBCLANG_PATHS "/usr/lib/llvm-10" "/usr/lib/llvm-9" "/usr/lib/llvm-8" "/usr/lib/llvm-7" "/usr/lib/llvm-6.0" "/usr/lib/llvm-5.0" "/usr/lib/llvm" )
+    set( LIBCLANG_PATHS "/usr/lib/llvm-14" "/usr/lib/llvm-10" "/usr/lib/llvm-9" "/usr/lib/llvm-8" "/usr/lib/llvm-7" "/usr/lib/llvm-6.0" "/usr/lib/llvm-5.0" "/usr/lib/llvm" )
     set( LIBCLANG_LIBNAME "clang" )
 endif()
 
